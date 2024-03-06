@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collage Links</title>
+</head>
+<body>
+  
+    
+
+    <h3>Collage Links</h3>
+    
+    <ul id="List"></ul>
+    
+    <script>
+       
+       let data = ["http://www.yahoo.com", "http://www.usatoday.com", "http://www.imdb.com"];
+       
+       
+       
+       let list = document.getElementById("List");
+       
+       for (i = 0; i < data.length; ++i) {
+          var li = document.createElement('li');
+          
+         
+          var a = document.createElement("a");
+
+          a.setAttribute("target", "_blank");  
+          a.setAttribute("href", data[i]);  
+
+          a.innerText = "Link " + i;
+          
+          li.appendChild(a);
+          
+          list.appendChild(li);
+       }
+    
+    </script>
+
+</body>
+</html>
