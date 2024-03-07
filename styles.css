@@ -1,8 +1,22 @@
 
 body {
-    background-color: lightcyan;
+    background-color: burlywood;
 }
 
+
+
+h1, h2, h3, h4, h5 {
+    color: rgb(61, 24, 7);
+    margin-left: 500px;
+}
+
+h2 {
+    font-size: 80px;
+}
+
+h3 {
+    font-size: 70px;
+}
 
 
 .links {
@@ -13,6 +27,16 @@ body {
 
 
 li {
-    margin: 10px 0px 10px 30px;
+    font-size: 60px;
+    margin: 0px 0px 100px 550px;
 }
 
+
+a {
+    color: olive;
+}
+
+
+a:visited {
+    color: blanchedalmond;
+}
