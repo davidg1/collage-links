@@ -7,15 +7,15 @@ body {
 
 h1, h2, h3, h4, h5 {
     color: rgb(61, 24, 7);
-    margin-left: 500px;
+    margin-left: 200px;
 }
 
 h2 {
-    font-size: 80px;
+    font-size: 50px;
 }
 
 h3 {
-    font-size: 70px;
+    font-size: 40px;
 }
 
 
@@ -27,8 +27,8 @@ h3 {
 
 
 li {
-    font-size: 60px;
-    margin: 0px 0px 100px 550px;
+    font-size: 30px;
+    margin: 0px 0px 50px 225px;
 }
 
 
